@@ -26,7 +26,7 @@ main {
 }
 
 header{
-    padding:  0 20rem;
+    padding:  0 25rem;
     background: var(--darker-background-color);
 }
 
@@ -41,15 +41,15 @@ nav {
     justify-content: left;
     align-items: center;
     flex: 3 1 auto;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
-#hero-main-text, #header-logo {
+#hero-main-text, #header-logo, #information-header {
     font-weight: 900;
 }
 
 #hero-wrapper {
-    padding: 10rem 0;
+    padding: 8rem 0;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -105,4 +105,34 @@ button {
 
 a {
     color: inherit;
+}
+
+#gallery {
+    padding: 0 25rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: var(--darker-background-color);
+}
+
+#gallery-wrapper {
+    padding: 0 2rem;
+    display: flex;
+    font-size: var(--main-font-size);
+    justify-content: space-evenly;
+}
+
+.image-wrapper {
+    width: 200px;
+}
+
+#gallery-wrapper img {
+    border-radius: 2rem;
+    border: 4px solid var(--highlight-color);
+    width: 100%;
+    height: 200px;
+}
+
+#information-header {
+    font-size: 3.6rem;
+    padding: 1.5em 0;
 }
