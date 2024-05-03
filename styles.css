@@ -5,6 +5,7 @@
     --secondary-text-color: #E5E7EB;
     --main-font-size: 1.8rem;
     --darker-background-color: #1f2937;
+    --highlight-color: #3882F6;
 
 }
 
@@ -25,11 +26,12 @@ main {
 }
 
 header{
+    padding:  0 20rem;
     background: var(--darker-background-color);
 }
 
 nav {
-    padding: 1rem 20rem;
+    padding: 1rem 0;
     gap: 5rem;
     display: flex;
 }
@@ -40,6 +42,55 @@ nav {
     align-items: center;
     flex: 3 1 auto;
     font-size: 24px;
+}
+
+#hero-main-text, #header-logo {
+    font-weight: 900;
+}
+
+#hero-wrapper {
+    padding: 10rem 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+#hero-text {
+    flex: 1 1 auto;
+}
+
+#hero-wrapper p {
+    font-size: var(--main-font-size);
+    color: var(--secondary-text-color);
+}
+
+#hero-image {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+}
+
+#hero-image img{
+    width: 100%;
+}
+
+#hero-main-text {
+    font-size: 4.8rem;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: var(--highlight-color);
+    font-size: var(--main-font-size);
+    border-radius: 0.75rem;
+    padding: 0.5rem 3rem;
+    border: none;
+    font-weight: 700;
+    color: var(--main-text-color);
 }
 
 #nav-links {
