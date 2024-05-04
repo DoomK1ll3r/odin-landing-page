@@ -194,6 +194,14 @@ a {
 }
 
 #main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5rem 0;
     font-size: var(--main-font-size);
     background-color: var(--darker-background-color);
+}
+
+#copyright {
+    filter: invert(1);
 }
