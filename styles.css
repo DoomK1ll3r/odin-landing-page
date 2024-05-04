@@ -138,7 +138,34 @@ a {
     padding: 1.5em 0;
 }
 
-#sign-up {
+#banner {
+    padding: 6rem 12rem;
+    align-items: center;
+    display: flex;
+    border-radius: 0.75rem;
+    margin: 10rem 25rem;
+    background-color: var(--highlight-color);
+}
+
+#banner-wrapper {
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+#banner button {
+    border: 2px solid var(--main-text-color);
+    flex:  0 0 auto;
+}
+
+#banner h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#banner p {
+    font-size: var(--main-font-size);
 }
 
 #quote {
@@ -158,10 +185,15 @@ a {
 
 #quote footer {
     font-weight: 700;
-    font-size: var(--main-font-size);
+    font-size: 2.5rem;
     text-align: right;
 }
 
 #quote-wrapper {
     padding: 10rem 40rem;
+}
+
+#main-footer {
+    font-size: var(--main-font-size);
+    background-color: var(--darker-background-color);
 }
